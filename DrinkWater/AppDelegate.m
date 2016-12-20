@@ -20,6 +20,31 @@
     return YES;
 }
 
+-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification{
+    
+    //在APP内部时不执行下面的步骤
+    if(application.applicationState == UIApplicationStateActive){
+        return;
+    }
+    
+    DWLog(@"USERINFO:%@",notification.userInfo);
+//    [[NSNotificationCenter defaultCenter]postNotificationName:@"RefreshList" object:nil];
+    // 更新显示的徽章个数
+//    NSInteger badge = [UIApplication sharedApplication].applicationIconBadgeNumber;
+//    badge--;
+//    badge = badge >= 0 ? badge : 0;
+//    [UIApplication sharedApplication].applicationIconBadgeNumber = badge;
+//    [DWTools changeIconNumber:-1];
+}
+
+-(void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forLocalNotification:(UILocalNotification *)notification completionHandler:(void (^)())completionHandler{
+    
+}
+
+-(void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forLocalNotification:(UILocalNotification *)notification withResponseInfo:(NSDictionary *)responseInfo completionHandler:(void (^)())completionHandler{
+    
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
