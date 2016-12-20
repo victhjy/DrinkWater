@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		465BF09A1E08DE28006E7026 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 465BF0991E08DE28006E7026 /* main.m */; };
+		465BF09D1E08DE28006E7026 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465BF09C1E08DE28006E7026 /* AppDelegate.m */; };
+		465BF0A01E08DE28006E7026 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465BF09F1E08DE28006E7026 /* ViewController.m */; };
+		465BF0A31E08DE28006E7026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465BF0A11E08DE28006E7026 /* Main.storyboard */; };
+		465BF0A51E08DE28006E7026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465BF0A41E08DE28006E7026 /* Assets.xcassets */; };
+		465BF0A81E08DE28006E7026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465BF0A61E08DE28006E7026 /* LaunchScreen.storyboard */; };
+		465BF0B31E08DE28006E7026 /* DrinkWaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 465BF0B21E08DE28006E7026 /* DrinkWaterTests.m */; };
+		465BF0BE1E08DE28006E7026 /* DrinkWaterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 465BF0BD1E08DE28006E7026 /* DrinkWaterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		465BF0AF1E08DE28006E7026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465BF08D1E08DE27006E7026 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465BF0941E08DE27006E7026;
+			remoteInfo = DrinkWater;
+		};
+		465BF0BA1E08DE28006E7026 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465BF08D1E08DE27006E7026 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465BF0941E08DE27006E7026;
+			remoteInfo = DrinkWater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		465BF0951E08DE27006E7026 /* DrinkWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		465BF0991E08DE28006E7026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		465BF09B1E08DE28006E7026 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		465BF09C1E08DE28006E7026 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		465BF09E1E08DE28006E7026 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		465BF09F1E08DE28006E7026 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		465BF0A21E08DE28006E7026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		465BF0A41E08DE28006E7026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		465BF0A71E08DE28006E7026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		465BF0A91E08DE28006E7026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465BF0AE1E08DE28006E7026 /* DrinkWaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkWaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		465BF0B21E08DE28006E7026 /* DrinkWaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrinkWaterTests.m; sourceTree = "<group>"; };
+		465BF0B41E08DE28006E7026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465BF0B91E08DE28006E7026 /* DrinkWaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkWaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		465BF0BD1E08DE28006E7026 /* DrinkWaterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrinkWaterUITests.m; sourceTree = "<group>"; };
+		465BF0BF1E08DE28006E7026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		465BF0921E08DE27006E7026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BF0AB1E08DE28006E7026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BF0B61E08DE28006E7026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		465BF08C1E08DE27006E7026 = {
+			isa = PBXGroup;
+			children = (
+				465BF0971E08DE27006E7026 /* DrinkWater */,
+				465BF0B11E08DE28006E7026 /* DrinkWaterTests */,
+				465BF0BC1E08DE28006E7026 /* DrinkWaterUITests */,
+				465BF0961E08DE27006E7026 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		465BF0961E08DE27006E7026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				465BF0951E08DE27006E7026 /* DrinkWater.app */,
+				465BF0AE1E08DE28006E7026 /* DrinkWaterTests.xctest */,
+				465BF0B91E08DE28006E7026 /* DrinkWaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		465BF0971E08DE27006E7026 /* DrinkWater */ = {
+			isa = PBXGroup;
+			children = (
+				465BF09B1E08DE28006E7026 /* AppDelegate.h */,
+				465BF09C1E08DE28006E7026 /* AppDelegate.m */,
+				465BF09E1E08DE28006E7026 /* ViewController.h */,
+				465BF09F1E08DE28006E7026 /* ViewController.m */,
+				465BF0A11E08DE28006E7026 /* Main.storyboard */,
+				465BF0A41E08DE28006E7026 /* Assets.xcassets */,
+				465BF0A61E08DE28006E7026 /* LaunchScreen.storyboard */,
+				465BF0A91E08DE28006E7026 /* Info.plist */,
+				465BF0981E08DE27006E7026 /* Supporting Files */,
+			);
+			path = DrinkWater;
+			sourceTree = "<group>";
+		};
+		465BF0981E08DE27006E7026 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				465BF0991E08DE28006E7026 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		465BF0B11E08DE28006E7026 /* DrinkWaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				465BF0B21E08DE28006E7026 /* DrinkWaterTests.m */,
+				465BF0B41E08DE28006E7026 /* Info.plist */,
+			);
+			path = DrinkWaterTests;
+			sourceTree = "<group>";
+		};
+		465BF0BC1E08DE28006E7026 /* DrinkWaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				465BF0BD1E08DE28006E7026 /* DrinkWaterUITests.m */,
+				465BF0BF1E08DE28006E7026 /* Info.plist */,
+			);
+			path = DrinkWaterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		465BF0941E08DE27006E7026 /* DrinkWater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465BF0C21E08DE28006E7026 /* Build configuration list for PBXNativeTarget "DrinkWater" */;
+			buildPhases = (
+				465BF0911E08DE27006E7026 /* Sources */,
+				465BF0921E08DE27006E7026 /* Frameworks */,
+				465BF0931E08DE27006E7026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrinkWater;
+			productName = DrinkWater;
+			productReference = 465BF0951E08DE27006E7026 /* DrinkWater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		465BF0AD1E08DE28006E7026 /* DrinkWaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465BF0C51E08DE28006E7026 /* Build configuration list for PBXNativeTarget "DrinkWaterTests" */;
+			buildPhases = (
+				465BF0AA1E08DE28006E7026 /* Sources */,
+				465BF0AB1E08DE28006E7026 /* Frameworks */,
+				465BF0AC1E08DE28006E7026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465BF0B01E08DE28006E7026 /* PBXTargetDependency */,
+			);
+			name = DrinkWaterTests;
+			productName = DrinkWaterTests;
+			productReference = 465BF0AE1E08DE28006E7026 /* DrinkWaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		465BF0B81E08DE28006E7026 /* DrinkWaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465BF0C81E08DE28006E7026 /* Build configuration list for PBXNativeTarget "DrinkWaterUITests" */;
+			buildPhases = (
+				465BF0B51E08DE28006E7026 /* Sources */,
+				465BF0B61E08DE28006E7026 /* Frameworks */,
+				465BF0B71E08DE28006E7026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465BF0BB1E08DE28006E7026 /* PBXTargetDependency */,
+			);
+			name = DrinkWaterUITests;
+			productName = DrinkWaterUITests;
+			productReference = 465BF0B91E08DE28006E7026 /* DrinkWaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		465BF08D1E08DE27006E7026 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = huangjinyang;
+				TargetAttributes = {
+					465BF0941E08DE27006E7026 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					465BF0AD1E08DE28006E7026 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 465BF0941E08DE27006E7026;
+					};
+					465BF0B81E08DE28006E7026 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 465BF0941E08DE27006E7026;
+					};
+				};
+			};
+			buildConfigurationList = 465BF0901E08DE27006E7026 /* Build configuration list for PBXProject "DrinkWater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 465BF08C1E08DE27006E7026;
+			productRefGroup = 465BF0961E08DE27006E7026 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				465BF0941E08DE27006E7026 /* DrinkWater */,
+				465BF0AD1E08DE28006E7026 /* DrinkWaterTests */,
+				465BF0B81E08DE28006E7026 /* DrinkWaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		465BF0931E08DE27006E7026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465BF0A81E08DE28006E7026 /* LaunchScreen.storyboard in Resources */,
+				465BF0A51E08DE28006E7026 /* Assets.xcassets in Resources */,
+				465BF0A31E08DE28006E7026 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BF0AC1E08DE28006E7026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BF0B71E08DE28006E7026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		465BF0911E08DE27006E7026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465BF0A01E08DE28006E7026 /* ViewController.m in Sources */,
+				465BF09D1E08DE28006E7026 /* AppDelegate.m in Sources */,
+				465BF09A1E08DE28006E7026 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BF0AA1E08DE28006E7026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465BF0B31E08DE28006E7026 /* DrinkWaterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BF0B51E08DE28006E7026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465BF0BE1E08DE28006E7026 /* DrinkWaterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		465BF0B01E08DE28006E7026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465BF0941E08DE27006E7026 /* DrinkWater */;
+			targetProxy = 465BF0AF1E08DE28006E7026 /* PBXContainerItemProxy */;
+		};
+		465BF0BB1E08DE28006E7026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465BF0941E08DE27006E7026 /* DrinkWater */;
+			targetProxy = 465BF0BA1E08DE28006E7026 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		465BF0A11E08DE28006E7026 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				465BF0A21E08DE28006E7026 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		465BF0A61E08DE28006E7026 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				465BF0A71E08DE28006E7026 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		465BF0C01E08DE28006E7026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		465BF0C11E08DE28006E7026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		465BF0C31E08DE28006E7026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrinkWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.DrinkWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		465BF0C41E08DE28006E7026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrinkWater/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.DrinkWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		465BF0C61E08DE28006E7026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrinkWaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.DrinkWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkWater.app/DrinkWater";
+			};
+			name = Debug;
+		};
+		465BF0C71E08DE28006E7026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrinkWaterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.DrinkWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkWater.app/DrinkWater";
+			};
+			name = Release;
+		};
+		465BF0C91E08DE28006E7026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrinkWaterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.DrinkWaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrinkWater;
+			};
+			name = Debug;
+		};
+		465BF0CA1E08DE28006E7026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrinkWaterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.first.DrinkWaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrinkWater;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		465BF0901E08DE27006E7026 /* Build configuration list for PBXProject "DrinkWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465BF0C01E08DE28006E7026 /* Debug */,
+				465BF0C11E08DE28006E7026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465BF0C21E08DE28006E7026 /* Build configuration list for PBXNativeTarget "DrinkWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465BF0C31E08DE28006E7026 /* Debug */,
+				465BF0C41E08DE28006E7026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		465BF0C51E08DE28006E7026 /* Build configuration list for PBXNativeTarget "DrinkWaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465BF0C61E08DE28006E7026 /* Debug */,
+				465BF0C71E08DE28006E7026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		465BF0C81E08DE28006E7026 /* Build configuration list for PBXNativeTarget "DrinkWaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465BF0C91E08DE28006E7026 /* Debug */,
+				465BF0CA1E08DE28006E7026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 465BF08D1E08DE27006E7026 /* Project object */;
+}
