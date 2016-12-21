@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4659812B1E0A65B700769FA1 /* DWAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4659812A1E0A65B700769FA1 /* DWAnimationView.m */; };
+		4659812E1E0A65D600769FA1 /* DWHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4659812D1E0A65D600769FA1 /* DWHomeVC.m */; };
 		465BF09A1E08DE28006E7026 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 465BF0991E08DE28006E7026 /* main.m */; };
 		465BF09D1E08DE28006E7026 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465BF09C1E08DE28006E7026 /* AppDelegate.m */; };
 		465BF0A01E08DE28006E7026 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465BF09F1E08DE28006E7026 /* ViewController.m */; };
@@ -154,6 +156,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		465981291E0A65B700769FA1 /* DWAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAnimationView.h; sourceTree = "<group>"; };
+		4659812A1E0A65B700769FA1 /* DWAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAnimationView.m; sourceTree = "<group>"; };
+		4659812C1E0A65D600769FA1 /* DWHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWHomeVC.h; sourceTree = "<group>"; };
+		4659812D1E0A65D600769FA1 /* DWHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWHomeVC.m; sourceTree = "<group>"; };
+		4659812F1E0A72C100769FA1 /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		465BF0951E08DE27006E7026 /* DrinkWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		465BF0991E08DE28006E7026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		465BF09B1E08DE28006E7026 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -465,7 +472,7 @@
 		465BF0971E08DE27006E7026 /* DrinkWater */ = {
 			isa = PBXGroup;
 			children = (
-				465BF4471E0907BA006E7026 /* LocalNoti */,
+				465BF4471E0907BA006E7026 /* Tools */,
 				465BF0CC1E08FDCA006E7026 /* Libraries */,
 				465BF09B1E08DE28006E7026 /* AppDelegate.h */,
 				465BF09C1E08DE28006E7026 /* AppDelegate.m */,
@@ -477,6 +484,10 @@
 				465BF0A91E08DE28006E7026 /* Info.plist */,
 				465BF0981E08DE27006E7026 /* Supporting Files */,
 				465BF2D01E08FE7A006E7026 /* PrefixHeader.pch */,
+				465981291E0A65B700769FA1 /* DWAnimationView.h */,
+				4659812A1E0A65B700769FA1 /* DWAnimationView.m */,
+				4659812C1E0A65D600769FA1 /* DWHomeVC.h */,
+				4659812D1E0A65D600769FA1 /* DWHomeVC.m */,
 			);
 			path = DrinkWater;
 			sourceTree = "<group>";
@@ -877,15 +888,16 @@
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
-		465BF4471E0907BA006E7026 /* LocalNoti */ = {
+		465BF4471E0907BA006E7026 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				4659812F1E0A72C100769FA1 /* Defines.h */,
 				465BF4481E0907E8006E7026 /* DWLocalNotification.h */,
 				465BF4491E0907E8006E7026 /* DWLocalNotification.m */,
 				465BF44B1E091568006E7026 /* DWTools.h */,
 				465BF44C1E091568006E7026 /* DWTools.m */,
 			);
-			name = LocalNoti;
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1026,6 +1038,7 @@
 				465BF3D51E090293006E7026 /* YYTextView.m in Sources */,
 				465BF3A91E090293006E7026 /* UIImage+YYAdd.m in Sources */,
 				465BF3AE1E090293006E7026 /* UIView+YYAdd.m in Sources */,
+				4659812E1E0A65D600769FA1 /* DWHomeVC.m in Sources */,
 				465BF4411E0906F1006E7026 /* MJPropertyType.m in Sources */,
 				465BF4361E0906F1006E7026 /* MASViewAttribute.m in Sources */,
 				465BF3B31E090293006E7026 /* _YYWebImageSetter.m in Sources */,
@@ -1087,6 +1100,7 @@
 				465BF4341E0906F1006E7026 /* MASConstraintMaker.m in Sources */,
 				465BF3A61E090293006E7026 /* UIDevice+YYAdd.m in Sources */,
 				465BF3DA1E090293006E7026 /* YYKeychain.m in Sources */,
+				4659812B1E0A65B700769FA1 /* DWAnimationView.m in Sources */,
 				465BF3961E090293006E7026 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				465BF4351E0906F1006E7026 /* MASLayoutConstraint.m in Sources */,
 				465BF3C91E090293006E7026 /* YYTextMagnifier.m in Sources */,

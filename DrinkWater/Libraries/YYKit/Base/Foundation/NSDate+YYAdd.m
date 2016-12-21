@@ -162,6 +162,7 @@ YYSYNTH_DUMMY_CLASS(NSDate_YYAdd)
 
 + (NSDate *)dateWithString:(NSString *)dateString format:(NSString *)format {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+//    formatter.locale=[[NSLocale alloc] initWithLocaleIdentifier:@"zh"];
     [formatter setDateFormat:format];
     return [formatter dateFromString:dateString];
 }

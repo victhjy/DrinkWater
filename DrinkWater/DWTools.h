@@ -15,4 +15,13 @@
 
 //修改当前红标
 +(void)changeIconNumber:(NSInteger)changed;
+
+//清零
++(void)clear;
+
++(NSInteger)userWater;
+
++(void)changeUserWater:(NSInteger)water;
+
++(void)setAndShowIconNumber:(NSInteger)changed;
 @end

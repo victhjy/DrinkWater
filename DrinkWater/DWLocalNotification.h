@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface DWLocalNotification : NSObject
-+ (void)registerLocalNotification:(NSInteger)alertTime string:(NSString *)string key:(NSString *)key;
++ (void)registerLocalNotification:(NSInteger)alertTime string:(NSString *)string key:(NSString *)key daily:(BOOL)is;
 + (void)cancelLocalNotificationWithKey:(NSString *)key;
+
++(void)registerDailyLocalNotification:(NSDate*)alertTime key:(NSString *)key;
 @end
